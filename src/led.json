@@ -1,0 +1,8 @@
+[
+  {"led": 3,"clasic": 15, "compact": 7, "halogen": 12},
+  {"led": 4,"clasic": 25, "compact": 9, "halogen": 20},
+  {"led": 5,"clasic": 40, "compact": 8, "halogen": 30},
+  {"led": 9,"clasic": 60, "compact": 12, "halogen": 45},
+  {"led": 12,"clasic": 75, "compact": 14, "halogen": 60},
+  {"led": 16,"clasic": 100, "compact": 25, "halogen": 75}
+]
