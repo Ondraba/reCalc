@@ -1,9 +1,20 @@
 import { CALCULATE } from '../actions/index';
 
-export default function(state = [], action){
+const appState = {
+  inputs: {
+    n1: null,
+    n2: null,
+    n3 : null
+  }
+}
+
+export default function(state = appState, action){
+  const newState = JSON.parse(JSON.stringify(state));
+
   switch(action.type){
     case CALCULATE:
-      return [action.payload.data, ...state];
+      const { newNumber } = action.payload;
+      return newState;
   }
   return state;
 }

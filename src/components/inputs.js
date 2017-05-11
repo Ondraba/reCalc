@@ -21,7 +21,13 @@ class Inputs extends Component{
       <div>
         <form>
           <div className="col-sm-12">
-            <input type="text" className="n1" value={this.props.n1}/>
+            <input
+                type="text"
+                className="n1"
+                value={this.props.n1}
+                onChange={(e) => { calculate(e.target);}}
+                placeholder='n1'
+            />
           </div>
           <div className="col-sm-12">
             <input type="text" className="n2"  value={this.props.n3}/>
